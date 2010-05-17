@@ -1,0 +1,60 @@
+
+.ui-draggable .ui-widget-titlebar {
+   cursor:move;
+   font-family:Georgia,Times,"Times New Roman",serif;
+}
+
+
+
+.ui-corner-all {
+-moz-border-radius-bottomleft:4px;
+-moz-border-radius-bottomright:4px;
+-moz-border-radius-topleft:4px;
+-moz-border-radius-topright:4px;
+}
+
+
+
+.ui-widget {
+   border: 2px solid black;
+   background-color: white;
+   padding: 3px;
+   opacity: 100%;
+   width: 400px;
+
+}
+
+.ui-widget-titlebar {
+   background-color: #EAE9DB;
+   color:#A74C29;
+   padding:0.5em 0.3em;
+   position:relative;
+   font-size:2.4em;
+   font-weight:normal;
+   line-height:1.5em;
+   margin-bottom:1em;
+   border-bottom: 2px solid #CCCCCC;
+
+}
+
+.ui-widget-title {
+   width: 100%;
+}
+
+.ui-widget-content {
+   background-color: white;
+
+}
+
+.ui-helper-clearfix {
+
+}
+.ui-widget-titlebar-close {
+
+   float:right;
+   font-size:10pt;
+   line-height:1em;
+   padding:2px;
+
+}
+

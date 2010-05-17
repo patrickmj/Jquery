@@ -11,7 +11,7 @@ function jquery_add()
 		
 		$plugins = scandir(PLUGIN_DIR . '/Jquery/views/shared/javascripts/plugins');
 		foreach($plugins as $plugin) {
-			if( ! ($plugin == ".") || ($plugin == "..") ) {
+			if( ! ( ($plugin == ".") || ($plugin == "..") ) ) {
 				$html .= "<script type='text/javascript' src='" . WEB_PLUGIN .   "/Jquery/views/shared/javascripts/plugins/" . $plugin ."' ></script>";
 			}			
 		}		
